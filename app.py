@@ -57,7 +57,7 @@ if not st.session_state.liberado:
     st.write("Digite o código para entrar:")
     codigo = st.text_input("Código", type="password")
     if st.button("Entrar"):
-        if codigo == CODIGO_VÁLIDOS:
+        if codigo in CODIGO_VÁLIDOS:
             st.session_state.liberado = True
             st.rerun()
         else:
