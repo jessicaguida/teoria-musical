@@ -39,7 +39,7 @@ PERGUNTAS = [
     ("No hinario, cantar ou tocar separadamente as vozes do soprano, contralto, tenor ou baixo caracterizam:", ["melodia", "ritmo", "harmonia", "altura"], 0),
 ]
 
-CODIGO_CORRETO = "JESSICA2026"
+CODIGO_VÁLIDOS = ["JESSICA2026", "MIRIA01", "GABI01", "FERNANDA01"]
 
 # --- TELA DE CÓDIGO ---
 if "liberado" not in st.session_state:
